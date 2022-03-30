@@ -1,6 +1,6 @@
 {
   "name": "@wekanteam/commitizen",
-  "version": "4.2.5",
+  "version": "4.2.6",
   "description": "Git commit, but play nice with conventions.",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/@wekanteam/cz-conventional-changelog"
     }
   },
   "homepage": "https://github.com/wekan/cz-cli",
@@ -59,7 +59,6 @@
   },
   "dependencies": {
     "cachedir": "2.3.0",
-    "cz-conventional-changelog": "3.3.0",
     "dedent": "0.7.0",
     "detect-indent": "6.1.0",
     "find-node-modules": "^2.1.2",
